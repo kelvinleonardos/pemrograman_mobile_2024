@@ -69,6 +69,7 @@ flutter:
     - resources/images/logo-instagram.svg
     - resources/images/logo-linkedin.svg
     - resources/images/logo-github.svg
+    - resources/images/logo-whatsapp.svg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

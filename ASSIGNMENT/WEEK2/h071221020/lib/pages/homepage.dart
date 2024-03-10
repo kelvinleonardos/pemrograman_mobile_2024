@@ -48,6 +48,18 @@ class HomePage extends StatelessWidget {
             DetailTab()
           ],
         ),
+        floatingActionButton: FloatingActionButton.extended(
+          onPressed: (){
+            _launchWA();
+          },
+          label: Text("Kerim Pesan"),
+          icon: IconButton(
+            icon: SvgPicture.asset(
+              "resources/images/logo-whatsapp.svg",
+              height: 35,
+            ), onPressed: () {},
+          ),
+        ),
       ),
     );
   }
@@ -334,3 +346,8 @@ _launchGithub() async {
   await launchUrl(Uri.parse(gitUrl));
 }
 
+_launchWA() async {
+  String message = Uri.encodeFull("Halo, Kelvin. ");
+  String waUrl = "whatsapp://send?phone=62895396186767&text=$message";
+  await launchUrl(Uri.parse(waUrl));
+}

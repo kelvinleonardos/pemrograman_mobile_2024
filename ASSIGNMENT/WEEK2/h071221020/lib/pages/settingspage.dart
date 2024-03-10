@@ -32,7 +32,7 @@ class SettingsPage extends StatelessWidget {
               ),
             ),
             subtitle: Text(
-              "v1.0.0",
+              "v1.0.1",
               style: TextStyle(
                 fontSize: 15,
                 fontWeight: FontWeight.bold
