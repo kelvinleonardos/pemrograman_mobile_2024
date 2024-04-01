@@ -283,7 +283,9 @@ class DetailTab extends StatelessWidget {
                 ),
               ],
             ),
-            Padding(padding: EdgeInsets.all(15))
+            SizedBox(
+              height: 100,
+            )
           ],
         )
       ],
